@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Averia Sans Libre', cursive;
+}
+
+a[href]:not([class]) {
+    color: #5c94cd;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    all: unset;
+}
